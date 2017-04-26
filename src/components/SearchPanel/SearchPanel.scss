@@ -1,0 +1,11 @@
+@import "../../styles/vars";
+
+.search-panel {
+  width: $search-panel-width;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $alt-bg-color;
+  padding: 100px 2% 2% 2%;
+}

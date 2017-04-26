@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "ts-server-build",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016"
+        ],
+        "target": "es2015",
+        "baseUrl": "../server"
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true
+    },
+    "include": [
+        "../server"
+    ]
+}

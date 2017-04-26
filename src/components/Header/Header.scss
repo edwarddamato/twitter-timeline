@@ -1,0 +1,15 @@
+@import "../../styles/vars";
+
+.header {
+  color: $primary-color;
+  position: fixed;
+  z-index: 1;
+  width: $search-panel-width;
+  padding: 2%;
+
+  &_title {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": [
+    "transform-regenerator",
+    "transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+      ]
+    }
+  }
+}

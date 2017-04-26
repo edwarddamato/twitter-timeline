@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "ts-build",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016"
+        ],
+        "target": "es6",
+        "jsx": "preserve",
+        "baseUrl": "src"
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./server"
+    ]
+}

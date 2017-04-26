@@ -1,0 +1,65 @@
+@import "../../../styles/vars";
+
+.tweet {
+  width: 100%;
+  background-color: $white;
+  border-radius: 5px;
+  padding: 15px;
+  overflow: auto;
+  box-shadow: 0px 7px 10px -8px $secondary-color;
+
+  &_user {
+    float: left;
+    &-img {
+      border-radius: 5px;
+      width: 48px;
+      height: 48px;
+      background-color: $secondary-color;
+    }
+  }
+
+  &_content {
+    float: left;
+    margin-left: 15px;
+    width: calc(100% - 63px);
+  }
+
+  &_header {
+    font-weight: 100;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+
+    &-fullname {
+      font-weight: 800;
+      margin-right: 5px;
+    }
+
+    &-username {
+      opacity: 0.6;
+      margin-right: 5px;
+    }
+
+    &-date {
+      color: $secondary-color;
+      &:before {
+        content: '';
+        border-radius: 50%;
+        width: 4px;
+        height: 4px;
+        display: inline-block;
+        background-color: $secondary-color;
+        vertical-align: middle;
+        margin-right: 5px;
+        line-height: 100%;
+      }
+    }
+  }
+
+  &_container {
+    color: $secondary-color;
+  }
+
+  &_hashtag {
+    color: $primary-color;
+  }
+}

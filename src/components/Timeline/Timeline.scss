@@ -1,0 +1,16 @@
+@import "../../styles/vars";
+
+.timeline {
+  width: calc(100% - #{$search-panel-width});
+  margin-left: $search-panel-width;
+}
+
+.tweet {
+  &_list {
+
+  }
+  &_item {
+    padding: 2%;
+    padding-bottom: 0;
+  }
+}
